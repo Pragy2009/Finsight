@@ -1,0 +1,34 @@
+# Virtual environment
+venv/
+env/
+*.venv
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+logs/
+*.log
+
+# Data - raw files are large, don't push to GitHub
+# (optional: keep processed data small enough to push, or exclude entirely)
+data/raw/*.xlsx
+!data/raw/.gitkeep
+
+# Database
+db/*.db
+!db/.gitkeep
+
+# Outputs
+outputs/*
+!outputs/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
